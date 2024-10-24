@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="morpion.css">
+    <title>Morpion - Deux joueurs</title>
+    
+</head>
+<body>
+<div class= 'container'>
+<h1 >Morpion</h1>
+
+<div id="message">C'est au tour de <span id="currentPlayer"></span></div>
+
+<div class="grid">
+    <div class="tile" id="0_0"></div>
+    <div class="tile" id="0_1"></div>
+    <div class="tile" id="0_2"></div>
+    <div class="tile" id="1_0"></div>
+    <div class="tile" id="1_1"></div>
+    <div class="tile" id="1_2"></div>
+    <div class="tile" id="2_0"></div>
+    <div class="tile" id="2_1"></div>
+    <div class="tile" id="2_2"></div>
+</div>
+
+<div id="scores">
+    <p><span id="player1Name">Joueur 1</span> : <span id="player1Score">0</span> victoire(s)</p>
+    <p><span id="player2Name">Joueur 2</span> : <span id="player2Score">0</span> victoire(s)</p>
+</div>
+
+<button id="resetButton">Recommencer</button>
+</div>
+<script src='morpion.js'></script>
+</body>
+</html>
